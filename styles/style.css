@@ -16,6 +16,7 @@
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
@@ -51,3 +52,84 @@ nav .btn{
     padding: 12.5px 16px;
 }
 /* navigation bar ends here  */
+
+
+/* banner starts here  */
+#banner{
+    border: 1px solid red;
+    background: url(../assets/hero-bg.png);
+    height: 674px;  
+}
+
+ #banner .banner_content{
+    border: 1px solid red;
+    margin: 115.5px 120px 179.5px 120px;
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+ }
+
+
+#banner .early_access_btn{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    padding: 8px 12px ;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#banner .banner_content h1{
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+#banner .banner_content h1 .second_line{
+    color: #30B868;
+    display: block;
+}
+
+#banner .banner_content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+
+#banner .banner_content .two_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+#banner .banner_content .left_green_btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+}
+
+
+#banner .banner_content .right_transparent_btn{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background: none;
+    cursor: pointer;
+}
